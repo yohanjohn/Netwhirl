@@ -1,5 +1,4 @@
 clear all; close all;
-file_name=uiputfile('*.gif','Save as animated GIF');
 
 aa = 40;        % Side length of square grid
 N = aa*aa;      % Number of neurons
@@ -124,5 +123,7 @@ axis equal
 axis off
 title('Inhibitory kernel')
 
+%file_name=uiputfile('*.gif','Save as animated GIF');
 %gif_2D(xs,aa,file_name)
+
 show_2D(xs,Inp,aa)
