@@ -124,5 +124,5 @@ axis equal
 axis off
 title('Inhibitory kernel')
 
-gif_2D(xs,aa,file_name)
-%show_2D(xs,Inp,aa)
+%gif_2D(xs,aa,file_name)
+show_2D(xs,Inp,aa)
